@@ -9,7 +9,7 @@ suma = 0
 brojac = 0
 
 
-while (input() == 'KRAJ'):
+for i in range(0, brojProdukti):
     produkti.append(input())
     cena.append(int(input()))
     
