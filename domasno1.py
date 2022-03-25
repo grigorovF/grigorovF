@@ -7,7 +7,9 @@ cena = []
 brojProdukti = (int(input("Vnesi kolku produkti: ")))
 suma = 0
 brojac = 0
-for i in range (0, brojProdukti):
+
+
+while (input() == 'KRAJ'):
     produkti.append(input())
     cena.append(int(input()))
     
